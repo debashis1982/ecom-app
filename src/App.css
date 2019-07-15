@@ -31,3 +31,24 @@
     transform: rotate(360deg);
   }
 }
+.leftNav{
+  float: left;
+  width: 20%;
+}
+.body{
+  display: flex;
+  float: left;
+  width: 80%;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.body > a{
+  margin: 10px
+}
+.small_img{
+  width: 100%;
+}
+.small_img > img{
+  width: 200px;
+  height: 200px;
+}
